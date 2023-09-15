@@ -1,12 +1,17 @@
+p {
+    font-family: sans-serif;
+}
+
 #overview {
     background: purple;
 }
 
-h1 {
-    color: white;
+#overview h1 {
+    color: rgb(0, 0, 0);
     font-family: 'Noto Sans KR', sans-serif;
 }
 
 .section-title {
     color: purple;
+    font-family: inherit;
 }
