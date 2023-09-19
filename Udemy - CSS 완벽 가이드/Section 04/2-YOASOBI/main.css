@@ -83,6 +83,28 @@ body {
     margin: 8px 0;
 }
 
+.button {
+    background: #a50029;
+    color: white;
+    font: inherit;
+    border: 0;
+    padding: 8px 30px;
+    border: 3px solid #a50029;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #a50029;
+}
+
+.button:focus {
+    outline: none;
+}
+
 
 /* header */
 .main-header {
