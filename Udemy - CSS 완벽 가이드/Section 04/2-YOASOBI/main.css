@@ -24,11 +24,76 @@ body {
 .section-title {
     color: #e52466;
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 8px;
 }
 
 #product-overview h1 {
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header */
+.main-header {
+    background: black;
+    width: 100%;
+    padding: 20px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #e52466;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 150px);
+    vertical-align: middle;
+}
+
+.main-nav__item {
+    margin: 0px 16px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #e52466;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: #d72f59;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #d72f59;
+    background-color: white;
+    border: none;
 }
 
 /* songs */
@@ -105,65 +170,43 @@ body {
     outline: none;
 }
 
-
-/* header */
-.main-header {
-    background: black;
-    width: 100%;
-    padding: 20px 16px;
+/* members */
+#members {
+    background: #540015;
+    margin-top: 80px;
+    padding: 16px;
 }
 
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
+#members .section-title {
+    color: white;
+    margin: 32px;
 }
 
-.main-header__brand {
-    color: #e52466;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 150px);
-    vertical-align: middle;
-}
-
-.main-nav__item {
-    margin: 0px 16px;
-    padding: 0;
+.members__list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.member {
     display: inline-block;
-    text-transform: uppercase;
+    width: 49%;
+    vertical-align: top;
 }
 
-.main-nav__item a {
-    text-decoration: none;
-    color: #e52466;
+.member__image {
+    background: #ccc;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #a50029;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.member__name {
+    text-align: center;
     font-weight: bold;
-    padding: 3px 0;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
     color: white;
-    border-bottom: 3px solid white;
-}
-
-.main-nav__item--cta a {
-    color: white;
-    background-color: #d72f59;
-    padding: 8px 16px;
-    border-radius: 8px;
-
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-    color: #d72f59;
-    background-color: white;
-    border: none;
+    font-size: 20px;
 }
