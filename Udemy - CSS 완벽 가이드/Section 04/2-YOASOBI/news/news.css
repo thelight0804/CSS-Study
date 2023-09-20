@@ -6,34 +6,62 @@ COLORS:
 */
 
 /* news */
-.news a {
-    display: block;
-    color: black;
-    text-decoration: none;
-    margin: 16px 32px;
-    padding: 32px;
+
+main {
+    padding-top: 32px;
+}
+
+.news {
+    width: 80%;
+    margin: 16px 0;
     background: #e67fa3;
     border: 4px solid #a50029;
 }
 
-.news a:hover,
-.news a:active {
-    border: 4px solid #e52466;
+.news a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 32px;
+}
+
+.news:hover,
+.news:active {
+    border-color: #e52466;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.news-date {
+    font-size: 16px;
+    color: #404040;
+    font-weight: lighter;
 }
 
 .news-title {
     font-size: 24px;
 }
 
-.news-date {
-    font-size: 16px;
-    color: #dbdbdb;
-    font-weight: lighter;
+.clearfix {
+    clear: both;
 }
 
-.news-detail {
+#news1 {
+    background: rgba(228, 47, 110, 0.95);
+}
+
+#news2 {
+    text-align: right;
+    background: rgba(223, 78, 129, 0.95);
+    float: right;
+}
+
+#news3 {
+    background: rgba(228, 122, 159, 0.95);
+}
+
+.news-info {
     padding: 16px;
-    border: 2px solid black;
+    color: #a50029;
     background: white;
+    border: 2px solid #a50029;
 }
