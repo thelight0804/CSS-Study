@@ -6,9 +6,16 @@ COLORS:
 */
 
 /* news */
-
 main {
     padding-top: 32px;
+}
+
+.background {
+    background: url("../img/news-background.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 .news {
