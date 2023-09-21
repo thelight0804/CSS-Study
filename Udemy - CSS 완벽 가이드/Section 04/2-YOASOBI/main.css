@@ -26,6 +26,12 @@ COLORS:
 }
 
 /* songs */
+.song__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .song {
     background: #e67fa3;
     text-align: center;
