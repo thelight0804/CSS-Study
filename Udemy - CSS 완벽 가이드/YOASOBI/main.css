@@ -6,10 +6,10 @@ COLORS:
 */
 
 #product-overview {
-    background-image: url("./img/main-background.jpg");
-    background-size: cover;
     width: 100%;
     height: 528px;
+
+    background: url("./img/main-background.jpg") left top/cover no-repeat border-box;
     padding: 10px;
 }
 
