@@ -11,6 +11,7 @@ COLORS:
 
     background: url("./img/main-background.jpg") left top/cover no-repeat border-box;
     padding: 10px;
+    position: relative;
 }
 
 .section-title {
@@ -24,6 +25,9 @@ COLORS:
 #product-overview h1 {
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
 }
 
 /* songs */
