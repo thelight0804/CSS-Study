@@ -11,7 +11,9 @@ main {
 }
 
 .background {
-    background: url("../img/news-background.png");
+    background: url("../img/news-background.png") center/cover;
+    filter: blur(3px) grayscale(40%);
+
     width: 100%;
     height: 100%;
     position: fixed;
@@ -23,6 +25,7 @@ main {
     margin: 16px 0;
     background: #e67fa3;
     border: 4px solid #a50029;
+    filter: opacity(85%);
 }
 
 .news a {
