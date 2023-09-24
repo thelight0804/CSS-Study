@@ -1,0 +1,70 @@
+/*
+COLORS:
+    Light pink: #e67fa3 #e52466
+    Medium pink: #d72f59
+    Dark pink: #a50029
+*/
+
+.media {
+    font-size: 20px;
+    margin: 48px 0;
+}
+
+.media:first-of-type {
+    margin-top: 96px;
+    display: inline-block;
+}
+
+.media__image-container {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial__image {
+    width: 100%;
+    vertical-align: top;
+}
+
+.testimonial__info {
+    text-align: right;
+    padding: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+}
+
+#media-2.media {
+    text-align: right;
+}
+
+#midia-2 .testimonial__info {
+    text-align: left;
+}
+
+.testimonial__name {
+    font-size: 40px;
+    margin: 3px;
+    color: #a50029;
+}
+
+.testimonial__subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #d72f59;
+}
+
+.testimonial__subtitle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.testimonial__subtitle a:hover,
+.testimonial__subtitle a:active {
+    color: #ac8690;
+}
+
+.testimonial__text {
+    margin: 3px;
+}
