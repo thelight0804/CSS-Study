@@ -140,3 +140,46 @@ COLORS:
     color: white;
     font-size: 1.25rem;
 }
+
+/* modal */
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 1rem;
+
+    background-color: white;
+    border: 3px solid #a50029;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.modal__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.modal__actions {
+    text-align: center;
+}
+
+.modal__actions a {
+    text-decoration: none;
+}
+
+.modal__action--negative {
+    background-color: white;
+    border: 3px solid #ccc;
+    color: black;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+    border: 3px solid white;
+    background-color: #ccc;
+    color: white;
+}
