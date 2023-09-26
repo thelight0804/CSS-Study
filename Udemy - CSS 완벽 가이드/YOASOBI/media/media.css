@@ -7,11 +7,11 @@ COLORS:
 
 .media {
     font-size: 1.3rem;
-    margin: 48px 0;
+    margin: 3rem 0;
 }
 
 .media:first-of-type {
-    margin-top: 96px;
+    margin-top: 6rem;
     display: inline-block;
 }
 
@@ -30,7 +30,7 @@ COLORS:
 
 .testimonial__info {
     text-align: right;
-    padding: 14px;
+    padding: 0.9rem;
     display: inline-block;
     vertical-align: middle;
     width: 60%;
@@ -67,5 +67,5 @@ COLORS:
 }
 
 .testimonial__text {
-    margin: 3px;
+    margin: 0.2rem;
 }
