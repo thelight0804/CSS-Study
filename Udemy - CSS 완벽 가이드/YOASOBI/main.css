@@ -6,8 +6,8 @@ COLORS:
 */
 
 #product-overview {
-    width: 100%;
-    height: 33rem;
+    width: 100vw;
+    height: 70vh;
 
     background: linear-gradient(rgba(180, 68, 18, 0.2) 10%, transparent),
         url("./img/main-background.jpg") left top/cover no-repeat border-box;
