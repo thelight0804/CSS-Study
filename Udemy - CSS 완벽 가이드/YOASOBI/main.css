@@ -7,11 +7,11 @@ COLORS:
 
 #product-overview {
     width: 100%;
-    height: 528px;
+    height: 33rem;
 
     background: linear-gradient(rgba(180, 68, 18, 0.2) 10%, transparent),
         url("./img/main-background.jpg") left top/cover no-repeat border-box;
-    /* padding: 10px; */
+    margin-top: 4.5rem;
     position: relative;
 }
 
@@ -19,8 +19,8 @@ COLORS:
     color: #e52466;
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
-    letter-spacing: 8px;
+    font-size: 1.9rem;
+    letter-spacing: 0.5rem;
 }
 
 #product-overview h1 {
@@ -41,12 +41,12 @@ COLORS:
 .song {
     background: #e67fa3;
     text-align: center;
-    padding: 16px;
-    margin: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .song--highlighted {
@@ -58,19 +58,19 @@ COLORS:
 .plan__annotation {
     background: white;
     color: #db477b;
-    padding: 8px;
+    padding: 0.5rem;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .song__title-jp {
-    font-size: 30px;
-    margin: 10px;
+    font-size: 1.9rem;
+    margin: 0.6rem;
     color: white;
 }
 
 .song__title-ko {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #a50029;
 }
 
@@ -81,24 +81,24 @@ COLORS:
 .song__detail {
     list-style: none;
     text-align: left;
-    padding: 0px;
-    margin: 20px 10px;
+    padding: 0rem;
+    margin: 0.2rem 0.6rem;
 }
 
 .song__detail li {
-    margin: 8px 0;
+    margin: 0.5rem 0;
 }
 
 /* members */
 #members {
     background: #540015;
-    margin-top: 80px;
-    padding: 16px;
+    margin-top: 5rem;
+    padding: 1rem;
 }
 
 #members .section-title {
     color: white;
-    margin: 32px;
+    margin: 3rem;
 }
 
 .members__list {
@@ -116,8 +116,8 @@ COLORS:
 
 .member__image {
     background: #ccc;
-    width: 128px;
-    height: 128px;
+    width: 8rem;
+    height: 8rem;
     border: 2px solid #a50029;
     border-radius: 50%;
     margin: 0 auto;
@@ -138,5 +138,5 @@ COLORS:
     text-align: center;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }

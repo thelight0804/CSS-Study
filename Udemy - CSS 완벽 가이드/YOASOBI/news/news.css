@@ -7,7 +7,7 @@ COLORS:
 
 /* news */
 main {
-    padding-top: 32px;
+    padding-top: 5rem;
 }
 
 .background {
@@ -22,7 +22,7 @@ main {
 
 .news {
     width: 80%;
-    margin: 16px 0;
+    margin: 1rem 0;
     background: #e67fa3;
     border: 4px solid #a50029;
     filter: opacity(85%);
@@ -32,7 +32,7 @@ main {
     display: block;
     text-decoration: none;
     color: black;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .news:hover,
@@ -46,21 +46,21 @@ main {
     top: 5%;
     left: 80%;
     
-    padding: 5px;
-    font-size: 18px;
+    padding: 0.3rem;
+    font-size: 1.2rem;
     font-style: italic;
     color: white;
     border: white solid 1px;
 }
 
 .news-date {
-    font-size: 16px;
+    font-size: 1rem;
     color: #404040;
     font-weight: lighter;
 }
 
 .news-title {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .clearfix {
@@ -83,7 +83,7 @@ main {
 }
 
 .news-info {
-    padding: 16px;
+    padding: 1rem;
     color: #a50029;
     background: white;
     border: 2px solid #a50029;
