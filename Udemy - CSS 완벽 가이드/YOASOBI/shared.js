@@ -16,12 +16,14 @@ for (var btn of selectSongBtn){
 // hide modal when click no button
 var selectNoBtn = document.querySelector(".modal__action--negative");
 
-selectNoBtn.addEventListener('click', () => {
-    // backdrop.style.display = "none";
-    // modal.style.display = "none";
-    backdrop.classList.remove("open");
-    modal.classList.remove("open");
-})
+if (selectNoBtn){
+    selectNoBtn.addEventListener('click', () => {
+        // backdrop.style.display = "none";
+        // modal.style.display = "none";
+        backdrop.classList.remove("open");
+        modal.classList.remove("open");
+    })
+}
 
 // open mobile toggle navigation
 var toggleButton = document.querySelector(".toggle-button");
@@ -38,9 +40,12 @@ toggleButton.addEventListener('click', () => {
 
 backdrop.addEventListener('click', () => {
     // backdrop.style.display = "none";
-    mobileNav.style.display = "none";
+    // mobileNav.style.display = "none";
     // modal.style.display = "none";
     backdrop.classList.remove("open");
-    modal.classList.remove("open");
+
+    if (modal){
+        modal.classList.remove("open");
+    }
     mobileNav.classList.remove("open");
 })
