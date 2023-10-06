@@ -92,7 +92,9 @@ main {
     .news {
         width: 80%;
         max-width: 800px;
-        margin: 3rem auto;
+        /* margin: 3rem auto; */
+        margin-left: auto;
+        margin-right: auto;
     }
     #news2 {
         text-align: right;
