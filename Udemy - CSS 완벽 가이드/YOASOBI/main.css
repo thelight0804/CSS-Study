@@ -106,7 +106,6 @@ COLORS:
         display: inline-block;
         width: 30%;
         vertical-align: middle;
-        min-width: 13rem;
         max-width: 20rem;
     }
     .song--highlighted {
@@ -134,9 +133,7 @@ COLORS:
 }
 
 .member {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
+    display: block;
 }
 
 .member__image {
@@ -164,6 +161,15 @@ COLORS:
     font-weight: bold;
     color: white;
     font-size: 1.25rem;
+}
+
+@media (min-width: 40rem){
+    .member {
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+        max-width: 19rem;
+    }
 }
 
 /* modal */
