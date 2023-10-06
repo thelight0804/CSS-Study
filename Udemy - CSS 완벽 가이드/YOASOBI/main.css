@@ -11,7 +11,7 @@ COLORS:
 
     background: linear-gradient(rgba(180, 68, 18, 0.2) 10%, transparent),
         url("./img/main-background.jpg") center/cover no-repeat border-box;
-    margin-top: 4.5rem;
+    margin-top: 4.4rem;
     position: relative;
 }
 
@@ -24,7 +24,7 @@ COLORS:
     font-size: 1rem;
 }
 
-@media (min-width: 40rem), (min-height: 60rem){
+@media (min-width: 40rem) and (min-height: 40rem){
     #product-overview {
         height: 70vh;
     }
