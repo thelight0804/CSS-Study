@@ -21,10 +21,10 @@ COLORS:
     position: absolute;
     bottom: 5%;
     left: 3%;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem), (min-height: 60rem){
     #product-overview {
         height: 70vh;
     }

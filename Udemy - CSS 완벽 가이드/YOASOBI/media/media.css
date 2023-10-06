@@ -7,19 +7,15 @@ COLORS:
 
 .media {
     font-size: 1.3rem;
-    margin: 3rem 0;
-}
-
-.media:first-of-type {
-    margin-top: 6rem;
-    display: inline-block;
+    padding-top: 6rem;
+    /* margin: 3rem 0; */
 }
 
 .media__image-container {
-    width: 30%;
-    min-width: 300px;
-    display: inline-block;
-    vertical-align: middle;
+    width: 100%;
+    min-width: 10rem;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -31,9 +27,9 @@ COLORS:
 .testimonial__info {
     text-align: right;
     padding: 0.9rem;
-    display: inline-block;
-    vertical-align: middle;
-    width: 60%;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    /* width: 60%; */
 }
 
 #media-2.media {
@@ -68,4 +64,24 @@ COLORS:
 
 .testimonial__text {
     margin: 0.2rem;
+}
+
+@media (min-width: 40rem){
+    .media {
+        margin: 3rem auto;
+        max-width: 1280px;
+    }
+
+    .media__image-container {
+        width: 30%;
+        min-width: 18.75rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .testimonial__info {
+        display: inline-block;
+        vertical-align: middle;
+        width: 60%;
+    }
 }
