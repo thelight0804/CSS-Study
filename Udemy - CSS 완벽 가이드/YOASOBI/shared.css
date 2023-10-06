@@ -37,6 +37,7 @@ body {
 }
 
 .toggle-button {
+    display: inline-block;
     width: 3rem;
     background: transparent;
     padding-top: 0;
@@ -60,6 +61,12 @@ body {
     margin: 0.6rem 0;
 }
 
+@media (min-width: 40rem){
+    .toggle-button {
+        display: none;
+    }
+}
+
 .main-header__brand {
     vertical-align: middle;
     color: #e52466;
@@ -76,9 +83,9 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
+    display: none;
     text-align: right;
-    width: calc(100% - 190px);
+    width: calc(100% - 120px);
     vertical-align: middle;
 }
 
@@ -120,6 +127,12 @@ body {
     color: #d72f59;
     background-color: white;
     border: none;
+}
+
+@media (min-width: 40rem){
+    .main-nav {
+        display: inline-block;
+    }
 }
 
 /* mobile nav */
@@ -192,8 +205,8 @@ body {
 }
 
 .main-footer__link {
-    display: inline-block;
-    margin: 0 1rem;
+    display: block;
+    margin: 1rem;
 }
 
 .main-footer__link a {
@@ -204,6 +217,13 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+@media (min-width: 40rem){
+    .main-footer__link {
+        display: inline-block;
+        margin: 0 1rem;
+    }
 }
 
 .open {
