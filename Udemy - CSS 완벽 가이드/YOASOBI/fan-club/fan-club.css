@@ -35,6 +35,42 @@ main {
 .fan-clup-form input[id*="agree"] + label {
     display: inline-block;
     width: auto;
+    vertical-align: bottom;
+}
+
+.fan-clup-form input:not([type="checkbox"]),
+.fan-clup-form select {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+.fan-clup-form input:not([type="checkbox"]):focus,
+.fan-clup-form select:focus {
+    outline: none;
+    background-color: #ffeaf1;
+    border-color: #a50029;
+}
+
+.fan-clup-form input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: white;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.fan-clup-form input[type="checkbox"]:checked {
+    outline: none;
+
+    background: #a50029;
+    border-color: #a50029;
 }
 
 .fan-clup-form button[type="submit"] {
