@@ -1,0 +1,30 @@
+/*
+COLORS:
+    Light pink: #e67fa3 #e52466
+    Medium pink: #d72f59
+    Dark pink: #a50029
+*/
+
+main {
+    padding-top: 1rem;
+}
+
+.fan-club-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #a50029;
+}
+
+.fan-clup-form label,
+.fan-clup-form input,
+.fan-clup-form select {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.fan-clup-form input[id*="agree"],
+.fan-clup-form input[id*="agree"] + label {
+    display: inline-block;
+    width: auto;
+}
