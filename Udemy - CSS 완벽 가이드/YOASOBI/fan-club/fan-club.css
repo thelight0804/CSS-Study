@@ -15,6 +15,14 @@ main {
     color: #a50029;
 }
 
+.fan-clup-form {
+    padding: 1rem;
+}
+
+.fan-clup-form label {
+    font-weight: bold;
+}
+
 .fan-clup-form label,
 .fan-clup-form input,
 .fan-clup-form select {
@@ -27,4 +35,17 @@ main {
 .fan-clup-form input[id*="agree"] + label {
     display: inline-block;
     width: auto;
+}
+
+.fan-clup-form button[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 40rem) {
+    .fan-clup-form  {
+        margin: auto;
+        width: 25rem;
+    }
 }
