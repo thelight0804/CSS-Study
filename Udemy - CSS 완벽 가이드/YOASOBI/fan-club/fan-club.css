@@ -15,45 +15,51 @@ main {
     color: #a50029;
 }
 
-.fan-clup-form {
+.fan-club-form {
     padding: 1rem;
 }
 
-.fan-clup-form label {
+.fan-club-form label {
     font-weight: bold;
 }
 
-.fan-clup-form label,
-.fan-clup-form input,
-.fan-clup-form select {
+.fan-club-form label,
+.fan-club-form input,
+.fan-club-form select {
     display: block;
     margin-top: 1rem;
     width: 100%;
 }
 
-.fan-clup-form input[id*="agree"],
-.fan-clup-form input[id*="agree"] + label {
+.fan-club-form input[id*="agree"],
+.fan-club-form input[id*="agree"] + label {
     display: inline-block;
     width: auto;
     vertical-align: bottom;
 }
 
-.fan-clup-form input:not([type="checkbox"]),
-.fan-clup-form select {
+.fan-club-form input:not([type="checkbox"]),
+.fan-club-form select {
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 0.2rem 0.5rem;
     font: inherit;
 }
 
-.fan-clup-form input:not([type="checkbox"]):focus,
-.fan-clup-form select:focus {
+.fan-club-form input:not([type="checkbox"]):focus,
+.fan-club-form select:focus {
     outline: none;
     background-color: #ffeaf1;
     border-color: #a50029;
 }
 
-.fan-clup-form input[type="checkbox"] {
+.fan-club-form input.valid,
+.fan-club-form select.valid {
+    border: 2px solid green;
+    background-color: rgb(197, 255, 197);
+}
+
+.fan-club-form input[type="checkbox"] {
     width: 1rem;
     height: 1rem;
     
@@ -66,21 +72,21 @@ main {
     appearance: none;
 }
 
-.fan-clup-form input[type="checkbox"]:checked {
+.fan-club-form input[type="checkbox"]:checked {
     outline: none;
 
     background: #a50029;
     border-color: #a50029;
 }
 
-.fan-clup-form button[type="submit"] {
+.fan-club-form button[type="submit"] {
     display: block;
     margin-top: 1rem;
     width: 100%;
 }
 
 @media (min-width: 40rem) {
-    .fan-clup-form  {
+    .fan-club-form  {
         margin: auto;
         width: 25rem;
     }
