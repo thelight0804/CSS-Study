@@ -79,6 +79,11 @@ main {
     border-color: #a50029;
 }
 
+label a {
+    text-decoration: none;
+    color: #727272;
+}
+
 .fan-club-form button[type="submit"] {
     display: block;
     margin-top: 1rem;
