@@ -5,6 +5,11 @@ COLORS:
     Dark pink: #a50029
 */
 
+@font-face {
+    font-family: "RobotoMono";
+    src: url("./font/RobotoMono-Bold.ttf");
+}
+
 #product-overview {
     width: 100vw;
     height: 40vh;
@@ -34,6 +39,7 @@ COLORS:
 }
 
 .section-title {
+    font-family: "RobotoMono", sans-serif;
     color: #e52466;
     text-align: center;
     font-weight: bold;
