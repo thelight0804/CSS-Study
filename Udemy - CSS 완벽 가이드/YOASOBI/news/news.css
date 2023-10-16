@@ -82,6 +82,7 @@ main {
 }
 
 .news-info {
+    font-family: 'Hahmlet', serif;
     padding: 1rem;
     color: #a50029;
     background: white;
