@@ -27,9 +27,6 @@ COLORS:
 .testimonial__info {
     text-align: right;
     padding: 0.9rem;
-    /* display: inline-block; */
-    /* vertical-align: middle; */
-    /* width: 60%; */
 }
 
 #media-2.media {
@@ -44,6 +41,7 @@ COLORS:
     font-size: 2.5rem;
     margin: 3px;
     color: #a50029;
+    text-shadow: 4px 4px 10px #ffb9c9;
 }
 
 .testimonial__subtitle {
@@ -63,6 +61,7 @@ COLORS:
 }
 
 .testimonial__text {
+    font-size: 1rem;
     margin: 0.2rem;
 }
 
