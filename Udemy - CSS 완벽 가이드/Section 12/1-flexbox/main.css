@@ -19,6 +19,9 @@ body {
     padding: 10px;
     border: 5px solid black;
     display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
 }
 .flex-container2 {
     background: white;
