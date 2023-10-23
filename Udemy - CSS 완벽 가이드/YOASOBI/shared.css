@@ -40,7 +40,7 @@ main {
     top: 0;
     left: 0;
     padding: 1.25rem 1rem;
-    z-index: 1;
+    z-index: 3;
 }
 
 .toggle-button {
@@ -68,11 +68,7 @@ main {
     margin: 0.6rem 0;
 }
 
-@media (min-width: 40rem){
-    .toggle-button {
-        display: none;
-    }
-}
+
 
 .main-header__brand {
     color: #e52466;
@@ -133,12 +129,6 @@ main {
     color: #d72f59;
     background-color: white;
     border: none;
-}
-
-@media (min-width: 40rem){
-    .main-nav {
-        display: flex;
-    }
 }
 
 /* mobile nav */
@@ -243,6 +233,19 @@ main {
 }
 
 @media (min-width: 40rem){
+    .toggle-button {
+        display: none;
+    }
+}
+
+@media (min-width: 40rem){
+    .main-nav {
+        display: flex;
+    }
+}
+
+
+@media (min-width: 40rem){
     .main-footer__link {
         margin: 0 1rem;
     }
@@ -256,3 +259,4 @@ main {
 .open {
     display: block !important;
 }
+
