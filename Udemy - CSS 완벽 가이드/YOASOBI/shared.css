@@ -128,13 +128,16 @@ main {
     border-bottom: 3px solid white;
 }
 
+.main-nav__item--cta {
+    animation: wiggle 200ms 3s 8 backwards;
+}
+
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
     color: white;
     background-color: #d72f59;
     padding: 0.5rem 1rem;
     border-radius: 8px;
-
 }
 
 .main-nav__item--cta a:hover,
@@ -278,3 +281,11 @@ main {
     transform: translateY(0) !important;
 }
 
+@keyframes wiggle {
+    from {
+        transform: rotateZ(0);
+    }
+    to {
+        transform: rotateZ(10deg);
+    }
+}
