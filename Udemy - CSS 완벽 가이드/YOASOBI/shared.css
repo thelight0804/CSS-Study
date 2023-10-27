@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet');
 
+:root {
+    --light-pink: #e52466;
+    --medium-pink: #d72f59;
+    --dark-pink: #a50029;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -86,7 +92,7 @@ main {
 
 
 .main-header__brand {
-    color: #e52466;
+    color: var(--light-pink, #e52466);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.9rem;
@@ -117,7 +123,7 @@ main {
 .main-nav__item a,
 .mobile-nav__item a {
     text-decoration: none;
-    color: #e52466;
+    color: var(--light-pink);
     font-weight: bold;
     padding: 0.2rem 0;
 }
@@ -135,7 +141,7 @@ main {
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
     color: white;
-    background-color: #d72f59;
+    background-color: var(--medium-pink);
     padding: 0.5rem 1rem;
     border-radius: 8px;
 }
@@ -144,7 +150,7 @@ main {
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-    color: #d72f59;
+    color: var(--medium-pink);
     background-color: white;
     border: none;
 }
@@ -187,12 +193,12 @@ main {
 
 /* button */
 .button {
-    background: #a50029;
+    background: var(--dark-pink);
     color: white;
     font: inherit;
     border: 0;
     padding: 0.5rem 1.9rem;
-    border: 3px solid #a50029;
+    border: 3px solid var(--dark-pink);
     border-radius: 50px;
     font-weight: bold;
     cursor: pointer;
