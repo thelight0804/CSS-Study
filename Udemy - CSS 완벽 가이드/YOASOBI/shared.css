@@ -19,15 +19,6 @@ body {
     font-family: 'Noto ans KR', sans-serif;
     margin: 0;
     height: 100%;
-
-    display: grid;
-    grid-template-rows: 4.375rem auto fit-content(8rem);
-    /* padding-top: 0.6rem; */
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-    
 }
 
 main {
@@ -299,5 +290,20 @@ main {
     }
     100% {
         transform: rotateZ(10deg);
+    }
+}
+
+@supports (display: grid) {
+    body {
+        margin: 0;
+        height: 100%;
+    
+        display: grid;
+        grid-template-rows: 4.375rem auto fit-content(8rem);
+        /* padding-top: 0.6rem; */
+        grid-template-areas: 
+            "header"
+            "main"
+            "footer";
     }
 }
