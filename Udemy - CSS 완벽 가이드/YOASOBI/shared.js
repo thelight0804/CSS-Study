@@ -2,6 +2,7 @@
 var backdrop = document.querySelector(".backdrop");
 var modal = document.querySelector(".modal");
 var selectSongBtn = document.querySelectorAll(".song button");
+// var ctaButton = document.querySelector(".main-nav__item--cta");
 
 for (var btn of selectSongBtn){
     btn.addEventListener('click', () => {
@@ -49,3 +50,15 @@ backdrop.addEventListener('click', () => {
     }
     mobileNav.classList.remove("open");
 })
+
+/*
+ctaButton.addEventListener('animationstart', (event)=>{
+    console.log('animationstart : ', event);
+})
+ctaButton.addEventListener('animationend', (event)=>{
+    console.log('animationend : ', event);
+})
+ctaButton.addEventListener('animationiteration', (event)=>{
+    console.log('animationiteration : ', event);
+})
+*/
